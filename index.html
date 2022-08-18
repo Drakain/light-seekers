@@ -14,9 +14,9 @@
 
 <body>
     <header>
-        <a href="index.html" id="logo"><h1>Light Seekers</h1></a>
-        <nav id="nav-menu">
-            <ul>
+        <a href="index.html"><h1 id="logo">Light Seekers</h1></a>
+        <nav>
+            <ul id="nav-menu">
                 <li>
                     <a href="signup.html">Sign Up</a>
                 </li>
@@ -24,18 +24,25 @@
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="active-page">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <div>
-        <video src="assets/videos/Aurora-port.mp4" autoplay loop muted height="80%" width="100%"></video>
-    </div>
-    
-
-    <section>Welcome image and text</section>
+    <section id="hero-container">
+        <div id="hero-image"></div>
+        <div id="fade1" class="fade-text">
+            <p>
+                <h2>Enchanting exploration</h2>
+            </p>
+        </div>
+        <div id="fade2" class="fade-text">
+            <p>
+                <h2>Magical memories</h2>
+            </p>
+        </div>
+    </section>
     <section>What we do and why you should join</section>
     <section>Meetup places and times</section>
 

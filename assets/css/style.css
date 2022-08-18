@@ -8,17 +8,94 @@
 
 body {
     font-family: Raleway, sans-serif;
-}
-
-header {
+    font-weight: 600;
     background-color: black;
 }
 
-#logo {
+/* Logo and header */
+
+h1 {
     font-family: Cinzel, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow:
+        0 0 8px rgb(255, 255, 255),
+        0 0 11px rgb(255, 255, 255),
+        0 0 22px rgb(255, 255, 255),
+        0 0 40px rgb(6, 236, 159),
+        0 0 85px rgb(222, 255, 34),
+        0 0 93px rgb(0, 255, 170),
+        0 0 101px rgb(0, 255, 170),
+        0 0 149px rgb(225, 250, 4);
+}
+
+#logo {
+    float: left;
+    font-size: 350%;
+}
+
+/* Navigation */
+
+#nav-menu {
+    font-size: 150%;
+}
+
+#nav-menu li {
+    float: right;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+#nav-menu a {
     text-decoration: none;
-    font-size: 230%;
-    color: #fff;
+    color: rgb(0, 0, 0);
+    text-shadow:
+        0 0 8px rgb(255, 255, 255),
+        0 0 11px rgb(255, 255, 255),
+        0 0 22px rgb(255, 255, 255),
+        0 0 40px rgb(6, 236, 159),
+        0 0 85px rgb(222, 255, 34),
+        0 0 93px rgb(0, 255, 170),
+        0 0 101px rgb(0, 255, 170),
+        0 0 149px rgb(225, 250, 4);
+}
+
+#nav-menu a:hover {
+    border-bottom: 2px solid;
+    color: rgb(255, 255, 255);
+}
+
+#nav-menu, #logo {
+    line-height: 75px;
+}
+
+.active-page {
+    border-bottom: 2px solid;
+    color: white;
+}
+
+/* Hero Image */
+
+#hero-image {
+    height: 750px;
+    width: 100%;
+    background: url(../images/hero-image.png);
+    z-index: 1;
+    position: relative;
+}
+
+#hero-container {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.fade-text {
+    color: rgb(89, 50, 100);
+    z-index: 2;
+    position: absolute;
+    font-family: Cinzel, sans-serif;
+    font-size: 150%;
+    animation: text-fade ease 6s;
     text-shadow:
         0 0 8px rgb(255, 255, 255),
         0 0 11px rgb(255, 255, 255),
@@ -30,19 +107,23 @@ header {
         0 0 149px rgb(0, 255, 170);
 }
 
-/* Navigation links */
-
-#nav-menu li {
-    list-style-type: none;
-    float: right;
-    margin-right: 50px;
-    font-size: 210%;
+#fade1 {
+    top: 30%;
+    left: 6%;
 }
 
-#nav-menu a {
-    text-decoration: none;
+#fade2 {
+    top: 60%;
+    right: 10%;
 }
 
-#nav-menu a:hover {
-    border-style: none double;
+/* Fade-in text animation */
+
+@keyframes text-fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

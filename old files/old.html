@@ -13,29 +13,34 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><h1>Light Seekers</h1></a>
+    <header id="header-container">
+        <a href="index.html" id="logo"><h1>Light Seekers</h1></a>
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html" class="active-page">Gallery</a>
-                </li>
+            <ul id="nav-menu">
                 <li>
                     <a href="signup.html">Sign Up</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section>Welcome image and text</section>
+    <section id="video-container">
+        <div id="video">
+            <video src="assets/videos/Aurora-port.mp4" autoplay muted height="80%" width="100%"></video>
+        </div>
+    </section>
+
     <section>What we do and why you should join</section>
     <section>Meetup places and times</section>
 
     <footer>
-        <ul>
+        <ul class="social-media">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
