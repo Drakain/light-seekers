@@ -31,6 +31,7 @@ h1 {
 #logo {
     float: left;
     font-size: 350%;
+    margin-left: 30px;
 }
 
 /* Navigation */
@@ -73,7 +74,7 @@ h1 {
     color: white;
 }
 
-/* Hero Image */
+/* Hero image */
 
 #hero-image {
     height: 750px;
@@ -95,7 +96,7 @@ h1 {
     position: absolute;
     font-family: Cinzel, sans-serif;
     font-size: 150%;
-    animation: text-fade ease 6s;
+    animation: text-fade ease 8s;
     text-shadow:
         0 0 8px rgb(255, 255, 255),
         0 0 11px rgb(255, 255, 255),
@@ -126,4 +127,79 @@ h1 {
     100% {
         opacity: 1;
     }
+}
+
+/* Club goals section */
+
+#reasons-to-join {
+    height: 375px;
+    margin: 20px auto;
+}
+
+#our-goals {
+    font-family: Cinzel, sans-serif;
+    text-align: center;
+    font-size: 280%;
+    color: green;
+}
+
+.reasons {
+    height: 375px;
+    width: 33%;
+    color: green;
+    border: 1px solid;
+    border-color: green;
+    float: left;
+}
+
+hr {
+    border-top: 1px solid green;
+    margin-bottom: 2px;
+    width: 50%;
+}
+
+.reasons h2 {
+    color: black;
+    text-shadow:
+    0 0 8px rgb(255, 255, 255),
+    0 0 11px rgb(255, 255, 255),
+    0 0 22px rgb(255, 255, 255),
+    0 0 40px rgb(0, 255, 170),
+    0 0 85px rgb(0, 255, 170),
+    0 0 93px rgb(0, 255, 170),
+    0 0 101px rgb(0, 255, 170),
+    0 0 149px rgb(0, 255, 170);
+}
+
+#text-r1 {
+    float: left;
+    width: 50%;
+}
+
+#text-r2 {
+    float: left;
+    width: 50%;
+}
+
+#text-r3 {
+    float: left;
+    width: 50%;
+}
+
+#image-r1 {
+    height: 300px;
+    float: right;
+    border-radius: 50%;
+}
+
+#image-r2 {
+    height: 300px;
+    float: right;
+    border-radius: 50%;
+}
+
+#image-r3 {
+    height: 300px;
+    float: right;
+    border-radius: 50%;
 }
