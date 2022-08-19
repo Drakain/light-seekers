@@ -271,3 +271,22 @@ footer {
     0 0 101px rgb(0, 255, 170),
     0 0 149px rgb(0, 255, 170);
 }
+
+/* Gallery */
+
+#pictures-heading {
+    font-family: Cinzel, sans-serif;
+    color: green;
+    font-size: 180%;
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos img {
+    width: 100%;
+}
