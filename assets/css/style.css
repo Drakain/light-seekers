@@ -205,29 +205,69 @@ hr {
     border-radius: 50%;
 }
 
-/* Meetup times */
+/* Meetup times and pricing*/
 
 #meetup-section {
     height: 300px;
     margin-top: 110px;
+    margin-bottom: 50px;
 }
 
 #meetup-section h2 {
     font-family: Cinzel, sans-serif;
     font-size: 140%;
-    text-align: center;
-    margin-bottom: 10px;
+    margin: 10px 10px 10px 50px;
     color: green;
 }
 
 #annual-meetups {
-    width: 50%;
+    width: 95%;
+    margin: 0 auto;
     border-collapse: collapse;
     color: green;
-    margin: 0 auto;
+    clear: left;
 }
 
 #annual-meetups th, #annual-meetups td {
     border: 1px solid rgb(89, 50, 100);
     padding: 10px;
+}
+
+#annual-meetups th {
+    background-color: rgb(61, 14, 105);
+    color: green;
+}
+
+#annual-meetups tr:hover {
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+}
+
+.social-network-links {
+    text-align: center;
+}
+
+.social-network-links li {
+    display: inline;
+    font-size: 180%;
+    padding: 5%;
+    margin: 2%;
+}
+
+.social-network-links a {
+    color: black;
+    text-shadow:
+    0 0 8px rgb(255, 255, 255),
+    0 0 11px rgb(255, 255, 255),
+    0 0 22px rgb(255, 255, 255),
+    0 0 40px rgb(0, 255, 170),
+    0 0 85px rgb(0, 255, 170),
+    0 0 93px rgb(0, 255, 170),
+    0 0 101px rgb(0, 255, 170),
+    0 0 149px rgb(0, 255, 170);
 }
