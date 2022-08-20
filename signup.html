@@ -12,11 +12,54 @@
     <title>Light Seekers</title>
 </head>
 
-<section>
-    <form method="post" action="https://formdump.codeinstitute.net/">
+<section class="form-section">
+    <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
         <h2>Join our adventures!</h2>
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="first_name" required>
+        
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="first_name" class="text-input" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="last_name" class="text-input" required>
+
+        <br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email_address" class="text-input" required>
+
+        <h3>I want to depart from:</h3>
+        <input type="radio" id="stockholm" name="departing_from" value="Stockholm" class="radio-input" required>
+        <label for="stockholm">Stockholm</label>
+
+        <br>
+
+        <input type="radio" id="oslo" name="departing_from" value="Oslo" class="radio-input" required>
+        <label for="oslo">Oslo</label>
+
+        <br>
+        
+        <input type="radio" id="helsinki" name="departing_from" value="Helsinki" class="radio-input" required>
+        <label for="helsinki">Helsinki</label>
+        
+        <h3>I would like to travel by:</h3>
+        <label for="train">Train</label>
+        <input type="checkbox" id="train" name="mode-of-transportation1" value="Train" class="check-input">
+        <label for="car">Car</label>
+        <input type="checkbox" id="car" name="mode-of-transportation2" value="Car" class="check-input">
+        <label for="dog-sled">Dog sled</label>
+        <input type="checkbox" id="dog-sled" name="mode-of-transportation3" value="Dog sled" class="check-input">
+        <label for="snowmobile">Train</label>
+        <input type="checkbox" id="snowmobile" name="mode-of-transportation4" value="Snowmobile" class="check-input">
+
+        <h3>I will bring my own food:</h3>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="brings-food" value="Yes" class="radio-input" required>
+        <label for="no">No</label>
+        <input type="radio" id="no" name="brings-food" value="No" class="radio-input" required>
+
+        <br>
+
+        <input type="submit" value="Let's go!" class="join-button">
     </form>
 </section>
 

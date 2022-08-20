@@ -316,3 +316,87 @@ footer {
     clear: left;
     margin-bottom: 50px;
 }
+
+.signup-form {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: green;
+    margin: 150px;
+    padding: 30px;
+    height: 500px;
+    width: 400px;
+    left: 10%;
+    top: 10%;
+    font-size: 105%;
+}
+
+.signup-form h2 {
+    font-family: Cinzel, sans-serif;
+    font-size: 200%;
+    margin-bottom: 20px;
+    color: rgb(89, 50, 100);
+    text-shadow:
+        0 0 8px rgb(255, 255, 255),
+        0 0 11px rgb(255, 255, 255),
+        0 0 22px rgb(255, 255, 255),
+        0 0 40px rgb(0, 255, 170),
+        0 0 85px rgb(0, 255, 170),
+        0 0 93px rgb(0, 255, 170),
+        0 0 101px rgb(0, 255, 170),
+        0 0 149px rgb(0, 255, 170);
+}
+
+.signup-form h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.text-input {
+    background: transparent;
+    color: white;
+    height: 25px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(89, 50, 100);
+    border-radius: 6px;
+}
+
+.text-input:hover {
+    border-color: white;
+}
+
+.radio-input {
+    margin: 5px;
+    accent-color: rgb(89, 50, 100);
+}
+
+.check-input {
+    margin: 5px;
+    accent-color: rgb(89, 50, 100);
+}
+
+.join-button {
+    margin-top: 20px;
+    padding: 15px 40px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgb(89, 50, 100);
+    border: 1px solid white;
+    color: white;
+}
+
+.join-button:hover {
+    background-color: black;
+    color: rgb(89, 50, 100);
+    text-shadow:
+        0 0 8px rgb(255, 255, 255),
+        0 0 11px rgb(255, 255, 255),
+        0 0 22px rgb(255, 255, 255),
+        0 0 40px rgb(0, 255, 170),
+        0 0 85px rgb(0, 255, 170),
+        0 0 93px rgb(0, 255, 170),
+        0 0 101px rgb(0, 255, 170),
+        0 0 149px rgb(0, 255, 170);
+}
