@@ -70,8 +70,7 @@ h1 {
 }
 
 .active-page {
-    border-bottom: 2px solid;
-    color: white;
+    border-bottom: 2px solid white;
 }
 
 /* Hero image */
@@ -276,8 +275,17 @@ footer {
 
 #pictures-heading {
     font-family: Cinzel, sans-serif;
-    color: green;
     font-size: 180%;
+    clear: both;
+    padding: 70px 30px 20px 30px;
+    text-decoration: underline 3px solid;
+    color: rgb(89, 50, 100);
+    text-shadow:
+        0 0 8px rgb(255, 255, 255),
+        0 0 11px rgb(255, 255, 255),
+        0 0 22px rgb(255, 255, 255),
+        0 0 101px rgb(0, 255, 170),
+        0 0 149px rgb(0, 255, 170);
 }
 
 #photos {
@@ -285,8 +293,30 @@ footer {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    padding: 10px;
 }
 
 #photos img {
     width: 100%;
+}
+
+#videos-heading {
+    font-family: Cinzel, sans-serif;
+    font-size: 180%;
+    clear: both;
+    padding: 70px 30px 20px 30px;
+    text-decoration: underline 3px solid;
+    color: rgb(89, 50, 100);
+    text-shadow:
+        0 0 8px rgb(255, 255, 255),
+        0 0 11px rgb(255, 255, 255),
+        0 0 22px rgb(255, 255, 255),
+        0 0 101px rgb(0, 255, 170),
+        0 0 149px rgb(0, 255, 170);
+}
+
+#videos video {
+    float: left;
+    padding: 10px 10px 70px 10px;
+    box-sizing: border-box;
 }
