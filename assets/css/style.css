@@ -376,12 +376,15 @@ footer {
     border: 1px solid white;
     color: white;
     display: block;
+    font-weight: bold;
 }
 
 .join-button:hover {
     background-color: black;
     color: white;
 }
+
+/* Custom radio buttons and checkboxes */
 
 .radio-style1 > input[type="radio"] {
     appearance: none;
@@ -445,4 +448,32 @@ footer {
 
 .box-style > input[type="checkbox"]:focus{
     outline: 1px solid white;
+ }
+
+ /* Media queries */
+
+ /* Larger to medium screens */
+
+ @media screen and (max-width: 1670px) {
+    #reasons-to-join {
+        width: 65%;
+        height: 750px;
+        margin: 0 auto;
+    }
+
+    #our-goals {
+        padding: 10px 0;
+    }
+
+    .reasons {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #meetup-section {
+        clear: both;
+        
+        
+    }
  }
