@@ -277,7 +277,7 @@ footer {
     font-family: Cinzel, sans-serif;
     font-size: 180%;
     clear: both;
-    padding: 70px 30px 20px 30px;
+    padding: 60px 30px 20px 30px;
     text-decoration: underline 3px solid;
     color: rgb(89, 50, 100);
     text-shadow:
@@ -321,12 +321,12 @@ footer {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
     color: green;
-    margin: 150px;
+    margin: 110px;
     padding: 30px;
-    height: 500px;
+    height: 560px;
     width: 400px;
-    left: 10%;
-    top: 10%;
+    left: 18%;
+    top: 2%;
     font-size: 105%;
 }
 
@@ -347,7 +347,7 @@ footer {
 }
 
 .signup-form h3 {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 
@@ -366,37 +366,83 @@ footer {
     border-color: white;
 }
 
-.radio-input {
-    margin: 5px;
-    accent-color: rgb(89, 50, 100);
-}
-
-.check-input {
-    margin: 5px;
-    accent-color: rgb(89, 50, 100);
-}
-
 .join-button {
-    margin-top: 20px;
-    padding: 15px 40px;
+    margin-top: 10px;
+    padding: 12px 25px;
     border-radius: 2px;
     text-align: center;
     font-size: 100%;
     background-color: rgb(89, 50, 100);
     border: 1px solid white;
     color: white;
+    display: block;
 }
 
 .join-button:hover {
     background-color: black;
-    color: rgb(89, 50, 100);
-    text-shadow:
-        0 0 8px rgb(255, 255, 255),
-        0 0 11px rgb(255, 255, 255),
-        0 0 22px rgb(255, 255, 255),
-        0 0 40px rgb(0, 255, 170),
-        0 0 85px rgb(0, 255, 170),
-        0 0 93px rgb(0, 255, 170),
-        0 0 101px rgb(0, 255, 170),
-        0 0 149px rgb(0, 255, 170);
+    color: white;
 }
+
+.radio-style1 > input[type="radio"] {
+    appearance: none;
+    display: inline-block;
+    width: 15px;
+    height: 15px;  
+    padding: 3px;
+    background-clip: content-box;
+    border: 2px solid rgb(89, 50, 100);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.radio-style2 > input[type="radio"] {
+    appearance: none;
+    display: inline-block;
+    width: 15px;
+    height: 15px;  
+    padding: 3px;
+    background-clip: content-box;
+    border: 2px solid rgb(89, 50, 100);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.radio-style1 > input[type="radio"]:checked, .radio-style2 > input[type="radio"]:checked {
+    background-color: white;
+}
+
+.radio-style1 > input[type="radio"]:hover, .radio-style2 > input[type="radio"]:hover{
+    border-color: white;
+}
+
+.radio-style1 > input[type="radio"]:focus, .radio-style2 > input[type="radio"]:focus{
+    outline: 1px solid white;
+ }
+
+ .food-label {
+    margin-left: 10px;
+ }
+
+ .box-style > input[type="checkbox"] {
+    appearance: none;
+    display: inline-block;
+    width: 15px;
+    height: 15px;  
+    padding: 3px;
+    background-clip: content-box;
+    border: 2px solid rgb(89, 50, 100);
+    margin-right: 8px;
+    margin-left: 2px;
+}
+
+.box-style > input[type="checkbox"]:checked {
+    background-color: white;
+}
+
+.box-style > input[type="checkbox"]:hover{
+    border-color: white;
+}
+
+.box-style > input[type="checkbox"]:focus{
+    outline: 1px solid white;
+ }
