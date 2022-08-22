@@ -452,7 +452,7 @@ footer {
 
  /* Media queries */
 
- /* Larger to medium screens */
+ /* Screens below 1670px */
 
  @media screen and (max-width: 1670px) {
     #reasons-to-join {
@@ -473,7 +473,28 @@ footer {
 
     #meetup-section {
         clear: both;
-        
-        
+    }
+ }
+
+ /* Screens below 950px */
+
+ @media screen and (max-width: 950px) {
+    #nav-menu {
+        float: left;
+        clear: left;
+        margin-left: 30px;
+    }
+
+    .fade-text {
+        text-align: center;
+    }
+
+    #reasons-to-join {
+        width: 90%;
+        height: 750px;
+    }
+
+    .reasons {
+        height: 525px;
     }
  }
