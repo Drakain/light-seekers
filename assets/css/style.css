@@ -452,6 +452,10 @@ footer {
     #meetup-section {
         clear: both;
     }
+
+    .social-network-links {
+        /* margin-top: 20px; */
+    }
  }
 
  /* Screens 950px and below */
@@ -474,9 +478,7 @@ footer {
 
     .reasons {
         height: 375px;
-        float: none;
-        margin: 20px;
-        
+        margin: 20px; 
     }
 
     .reasons h2 {
@@ -502,8 +504,7 @@ footer {
     /* Table 950px and below*/
 
     #meetup-section {
-        height: 825px;
-        
+        height: 900px;
     }
 
     table thead {
@@ -532,11 +533,11 @@ footer {
         float: left;
         font-weight: bold;
         text-transform: uppercase;
+        
     }
 
     footer {
         top: 20px;
-        width: 100%;
         position: relative;
     }
  }
