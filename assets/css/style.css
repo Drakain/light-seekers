@@ -171,34 +171,12 @@ hr {
     0 0 149px rgb(0, 255, 170);
 }
 
-#text-r1 {
+.goals-text {
     float: left;
     width: 50%;
 }
 
-#text-r2 {
-    float: left;
-    width: 50%;
-}
-
-#text-r3 {
-    float: left;
-    width: 50%;
-}
-
-#image-r1 {
-    height: 300px;
-    float: right;
-    border-radius: 50%;
-}
-
-#image-r2 {
-    height: 300px;
-    float: right;
-    border-radius: 50%;
-}
-
-#image-r3 {
+.goals-image {
     height: 300px;
     float: right;
     border-radius: 50%;
@@ -452,7 +430,7 @@ footer {
 
  /* Media queries */
 
- /* Screens below 1670px */
+ /* Screens 1670px and below */
 
  @media screen and (max-width: 1670px) {
     #reasons-to-join {
@@ -476,7 +454,7 @@ footer {
     }
  }
 
- /* Screens below 950px */
+ /* Screens 950px and below */
 
  @media screen and (max-width: 950px) {
     #nav-menu {
@@ -495,6 +473,71 @@ footer {
     }
 
     .reasons {
-        height: 525px;
+        height: 375px;
+        float: none;
+        margin: 20px;
+        
+    }
+
+    .reasons h2 {
+        text-align: center;
+    }
+
+    hr {
+        width: inherit;
+    }
+
+    .goals-text {
+        width: inherit;
+        margin-bottom: 20px;
+    }
+
+    .goals-image {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        height: 225px;
+    }
+
+    /* Table 950px and below*/
+
+    #meetup-section {
+        height: 825px;
+        
+    }
+
+    table thead {
+        height: 1px;
+        margin: 1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+      
+    table tr {
+        border-bottom: 4px double green;
+        display: block;
+        padding: 3px;
+    }
+      
+    table td {
+        display: block;
+        font-size: 80%;
+        text-align: right;
+    }
+      
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    footer {
+        top: 20px;
+        width: 100%;
+        position: relative;
     }
  }
+
