@@ -428,8 +428,6 @@ footer {
     outline: 1px solid white;
  }
 
- /* Media queries */
-
  /* Screens 1670px and below */
 
  @media screen and (max-width: 1670px) {
@@ -453,9 +451,10 @@ footer {
         clear: both;
     }
 
-    .social-network-links {
-        /* margin-top: 20px; */
+    #photos {
+        column-count: 3;
     }
+
  }
 
  /* Screens 950px and below */
@@ -501,8 +500,6 @@ footer {
         height: 225px;
     }
 
-    /* Table 950px and below*/
-
     #meetup-section {
         height: 900px;
     }
@@ -539,6 +536,15 @@ footer {
     footer {
         top: 20px;
         position: relative;
+    }
+
+    #photos {
+        column-count: 2;
+    }
+
+    #videos video {
+        float: none;
+        width: 100%;
     }
  }
 
