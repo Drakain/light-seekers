@@ -554,3 +554,10 @@ footer {
     }
  }
 
+ @media screen and (max-width: 400px) {
+
+    #nav-menu li {
+        margin-right: 15px;
+    }
+ }
+
