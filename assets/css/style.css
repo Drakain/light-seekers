@@ -78,7 +78,7 @@ h1 {
 #hero-image {
     height: 750px;
     width: 100%;
-    background: url(../images/hero-image.png);
+    background: url(../images/hero-image.webp);
     z-index: 1;
     position: relative;
 }
@@ -90,7 +90,8 @@ h1 {
 }
 
 .fade-text {
-    color: rgb(89, 50, 100);
+    /* color: rgb(89, 50, 100); */
+    color: rgb(63, 3, 78);
     z-index: 2;
     position: absolute;
     font-family: Cinzel, sans-serif;
