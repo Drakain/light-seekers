@@ -90,8 +90,7 @@ h1 {
 }
 
 .fade-text {
-    /* color: rgb(89, 50, 100); */
-    color: rgb(63, 3, 78);
+    color: rgb(89, 50, 100);
     z-index: 2;
     position: absolute;
     font-family: Cinzel, sans-serif;
@@ -561,4 +560,3 @@ footer {
         margin-right: 15px;
     }
  }
-
