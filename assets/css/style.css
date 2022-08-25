@@ -454,7 +454,6 @@ footer {
     #photos {
         column-count: 3;
     }
-
  }
 
  /* Screens 950px and below */
@@ -545,6 +544,14 @@ footer {
     #videos video {
         float: none;
         width: 100%;
+    }
+
+    .signup-form {
+        position: static;
+        float: left;
+        margin: 50px 30px;
+        width: fit-content;
+        height: fit-content;
     }
  }
 
