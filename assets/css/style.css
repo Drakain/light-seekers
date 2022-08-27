@@ -139,13 +139,13 @@ h1 {
     font-family: Cinzel, sans-serif;
     text-align: center;
     font-size: 280%;
-    color: rgb(62, 223, 62);
+    color: rgb(59, 209, 59);
 }
 
 .reasons {
     height: 375px;
     width: 33%;
-    color: rgb(62, 223, 62);
+    color: rgb(59, 209, 59);
     float: left;
     margin-top: 10px;
     padding-left: 20px;
@@ -153,7 +153,7 @@ h1 {
 }
 
 hr {
-    border-top: 1px solid green;
+    border-top: 1px solid rgb(59, 209, 59);
     margin: 2px 0;
     width: 50%;
 }
@@ -194,14 +194,14 @@ hr {
     font-family: Cinzel, sans-serif;
     font-size: 140%;
     margin: 10px 10px 10px 50px;
-    color: rgb(62, 223, 62);
+    color: rgb(59, 209, 59)
 }
 
 #annual-meetups {
     width: 95%;
     margin: 0 auto;
     border-collapse: collapse;
-    color: rgb(62, 223, 62);
+    color: rgb(59, 209, 59);
     clear: left;
 }
 
@@ -212,7 +212,8 @@ hr {
 
 #annual-meetups th {
     background-color: rgb(69, 6, 87);
-    color: rgb(62, 223, 62);
+    /* color: rgb(62, 223, 62); */
+    color: rgb(59, 209, 59)
 }
 
 #annual-meetups tr:hover {
@@ -298,7 +299,7 @@ footer {
 .signup-form {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
-    color: rgb(62, 223, 62);
+    color: rgb(59, 209, 59);
     margin: 110px;
     padding: 30px;
     height: 560px;
@@ -558,5 +559,15 @@ footer {
 
     #nav-menu li {
         margin-right: 15px;
+    }
+
+    .fade-text {
+        animation: disabled;
+    }
+
+    #fade1, #fade2 {
+        margin: 0 2px;
+        right: 0;
+        left: 0;
     }
  }
