@@ -9,7 +9,7 @@
 body {
     font-family: Raleway, sans-serif;
     font-weight: 600;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 /* Logo and header */
@@ -70,7 +70,7 @@ h1 {
 }
 
 .active-page {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 /* Hero image */
@@ -90,7 +90,7 @@ h1 {
 }
 
 .fade-text {
-    color: rgb(89, 50, 100);
+    color: rgb(69, 6, 87);
     z-index: 2;
     position: absolute;
     font-family: Cinzel, sans-serif;
@@ -139,13 +139,13 @@ h1 {
     font-family: Cinzel, sans-serif;
     text-align: center;
     font-size: 280%;
-    color: green;
+    color: rgb(62, 223, 62);
 }
 
 .reasons {
     height: 375px;
     width: 33%;
-    color: green;
+    color: rgb(62, 223, 62);
     float: left;
     margin-top: 10px;
     padding-left: 20px;
@@ -159,7 +159,7 @@ hr {
 }
 
 .reasons h2 {
-    color: black;
+    color: rgb(0, 0, 0);
     text-shadow:
     0 0 8px rgb(255, 255, 255),
     0 0 11px rgb(255, 255, 255),
@@ -194,29 +194,29 @@ hr {
     font-family: Cinzel, sans-serif;
     font-size: 140%;
     margin: 10px 10px 10px 50px;
-    color: green;
+    color: rgb(62, 223, 62);
 }
 
 #annual-meetups {
     width: 95%;
     margin: 0 auto;
     border-collapse: collapse;
-    color: green;
+    color: rgb(62, 223, 62);
     clear: left;
 }
 
 #annual-meetups th, #annual-meetups td {
-    border: 1px solid rgb(89, 50, 100);
+    border: 1px solid rgb(69, 6, 87);
     padding: 10px;
 }
 
 #annual-meetups th {
-    background-color: rgb(61, 14, 105);
-    color: green;
+    background-color: rgb(69, 6, 87);
+    color: rgb(62, 223, 62);
 }
 
 #annual-meetups tr:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /* Footer */
@@ -257,7 +257,7 @@ footer {
     clear: both;
     padding: 60px 30px 20px 30px;
     text-decoration: underline 3px solid;
-    color: rgb(89, 50, 100);
+    color: rgb(69, 6, 87);
     text-shadow:
         0 0 8px rgb(255, 255, 255),
         0 0 11px rgb(255, 255, 255),
@@ -298,7 +298,7 @@ footer {
 .signup-form {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
-    color: green;
+    color: rgb(62, 223, 62);
     margin: 110px;
     padding: 30px;
     height: 560px;
@@ -312,7 +312,7 @@ footer {
     font-family: Cinzel, sans-serif;
     font-size: 200%;
     margin-bottom: 20px;
-    color: rgb(89, 50, 100);
+    color: rgb(69, 6, 87);
     text-shadow:
         0 0 8px rgb(255, 255, 255),
         0 0 11px rgb(255, 255, 255),
@@ -331,17 +331,17 @@ footer {
 
 .text-input {
     background: transparent;
-    color: white;
+    color: rgb(255, 255, 255);
     height: 25px;
     width: 100%;
     margin-top: 5px;
     margin-bottom: 10px;
-    border: 1px solid rgb(89, 50, 100);
+    border: 1px solid rgb(69, 6, 87);
     border-radius: 6px;
 }
 
 .text-input:hover {
-    border-color: white;
+    border-color: rgb(255, 255, 255);
 }
 
 .join-button {
@@ -350,16 +350,16 @@ footer {
     border-radius: 2px;
     text-align: center;
     font-size: 100%;
-    background-color: rgb(89, 50, 100);
-    border: 1px solid white;
-    color: white;
+    background-color: rgb(69, 6, 87);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     display: block;
     font-weight: bold;
 }
 
 .join-button:hover {
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 /* Custom radio buttons and checkboxes */
@@ -371,7 +371,7 @@ footer {
     height: 15px;  
     padding: 3px;
     background-clip: content-box;
-    border: 2px solid rgb(89, 50, 100);
+    border: 2px solid rgb(69, 6, 87);
     border-radius: 50%;
     margin-right: 5px;
 }
@@ -383,21 +383,21 @@ footer {
     height: 15px;  
     padding: 3px;
     background-clip: content-box;
-    border: 2px solid rgb(89, 50, 100);
+    border: 2px solid rgb(69, 6, 87);
     border-radius: 50%;
     margin-left: 5px;
 }
 
 .radio-style1 > input[type="radio"]:checked, .radio-style2 > input[type="radio"]:checked {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .radio-style1 > input[type="radio"]:hover, .radio-style2 > input[type="radio"]:hover{
-    border-color: white;
+    border-color: rgb(255, 255, 255);
 }
 
 .radio-style1 > input[type="radio"]:focus, .radio-style2 > input[type="radio"]:focus{
-    outline: 1px solid white;
+    outline: 1px solid rgb(255, 255, 255);
  }
 
  .food-label {
@@ -411,21 +411,21 @@ footer {
     height: 15px;  
     padding: 3px;
     background-clip: content-box;
-    border: 2px solid rgb(89, 50, 100);
+    border: 2px solid rgb(69, 6, 87);
     margin-right: 8px;
     margin-left: 2px;
 }
 
 .box-style > input[type="checkbox"]:checked {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .box-style > input[type="checkbox"]:hover{
-    border-color: white;
+    border-color: rgb(255, 255, 255);
 }
 
 .box-style > input[type="checkbox"]:focus{
-    outline: 1px solid white;
+    outline: 1px solid rgb(255, 255, 255);
  }
 
  /* Screens 1670px and below */
