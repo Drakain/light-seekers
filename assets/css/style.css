@@ -201,7 +201,7 @@ hr {
     width: 95%;
     margin: 0 auto;
     border-collapse: collapse;
-    color: rgb(59, 209, 59);
+    color: rgb(255, 255, 255);
     clear: left;
 }
 
@@ -212,12 +212,11 @@ hr {
 
 #annual-meetups th {
     background-color: rgb(69, 6, 87);
-    /* color: rgb(62, 223, 62); */
     color: rgb(59, 209, 59)
 }
 
 #annual-meetups tr:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(59, 209, 59);
 }
 
 /* Footer */
@@ -353,7 +352,7 @@ footer {
     font-size: 100%;
     background-color: rgb(69, 6, 87);
     border: 1px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
+    color: rgb(59, 209, 59);
     display: block;
     font-weight: bold;
 }
@@ -569,5 +568,14 @@ footer {
         margin: 0 2px;
         right: 0;
         left: 0;
+    }
+
+    .gallery-heading {
+        text-align: center;
+    }
+
+    #train, #car, #dog-sled, #snowmobile {
+        display: block;
+        margin: 5px 0;
     }
  }
