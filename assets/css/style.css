@@ -599,13 +599,9 @@ footer {
 
  /* Screens 325px and below */
 
- @media screen and (max-width: 400px) {
+ @media screen and (max-width: 325px) {
 
     #nav-menu li {
         margin-right: 10px;
-    }
-
-    .signup-form {
-        margin: 50px 20px;
     }
  }
