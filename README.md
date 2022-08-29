@@ -1,0 +1,5 @@
+# Light Seekers
+
+Light seekers is a site for people who want to experience the beauty and wonder of the aurora borealis in the northern parts of Scandinavia. The target audience for this site are people who maybe do not know where, when and how to best experience the northern lights. On the site adventurers can find information about where they can meet like-minded individuals who are looking for the same experience as they are and who can, through experience and resources, provide a more accessible way of experiencing this magnificent natural phenomenon.
+
+Visitors to the site can sign up and join the Light Seekers club, which already contains several members who annually seek out the northern lights while, for a fee, providing not only transportation and lodging but also food, if so desired, for both new and experienced adventurers alike. The aim of the site is to provide an easy starting point for those who do not wish to embark on this adventure alone.

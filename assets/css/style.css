@@ -553,7 +553,23 @@ footer {
         width: fit-content;
         height: fit-content;
     }
+
+    #fade1 {
+        margin: 0 2px;
+        right: 0;
+        left: 0;
+        top: 380px;
+    }
+
+    #fade2 {
+        margin: 0 2px;
+        right: 0;
+        left: 0;
+        top: 600px;
+    }
  }
+
+ /* Screens 400px and below */
 
  @media screen and (max-width: 400px) {
 
@@ -578,5 +594,18 @@ footer {
     #train, #car, #dog-sled, #snowmobile {
         display: block;
         margin: 5px 0;
+    }
+ }
+
+ /* Screens 325px and below */
+
+ @media screen and (max-width: 400px) {
+
+    #nav-menu li {
+        margin-right: 10px;
+    }
+
+    .signup-form {
+        margin: 50px 20px;
     }
  }
