@@ -602,6 +602,6 @@ footer {
  @media screen and (max-width: 325px) {
 
     #nav-menu li {
-        margin-right: 10px;
+        margin-right: 8px;
     }
  }
