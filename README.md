@@ -4,7 +4,7 @@ Light seekers is a site for people who want to experience the beauty and wonder 
 
 Visitors to the site can sign up and join the Light Seekers club, which already contains several members who annually seek out the northern lights while, for a fee, providing not only transportation and lodging but also food, if so desired, for both new and experienced adventurers alike. The aim of the site is to provide an easy starting point for those who do not wish to embark on this adventure alone.
 
-![The site running on dofferent devices](assets/images/responsive.png)
+![The site running on different devices](assets/images/responsive.png)
 
 ## Features
 
@@ -14,7 +14,7 @@ Visitors to the site can sign up and join the Light Seekers club, which already 
 
 ![The navigation bar](assets/images/navigation.png)
 
-* Landing page image
+* Landing Page Image
   - The landing consists of a colorful image to catch the users attention. The picture is of the northern lights which is the main focus of the site.
   - In addition to the image an animation will make two bits of text fade in further enticing the user to keep exploring the site.
 
@@ -27,5 +27,27 @@ Visitors to the site can sign up and join the Light Seekers club, which already 
 
 ![Section describing what members of this club do](assets/images/what-we-do.png)
 
-* Information table
-  - A table with the most relevant basic information.
+* Information Table
+  - A table with the most relevant basic information. The user can find meetup positions, times, available ways to travel as well as how much it will cost.
+  - It is fully responsive and will change its layout for smaller screens.
+  - The information in the table will be updated if there is any change to the annual meetups.
+
+![The information table with the most relevant basic information for new visitors to the site](assets/images/table.png)
+
+* The Footer
+  - Provides links to all of Light Seekers social media sites. All links will open up in new tabs for easier navigation.
+  - Gives the users further incentive to engage and interact with current members of the club.
+  - Can be found on every part of the site and maintains its position and appearance in order to facilitate navigation.
+
+![The footer](assets/images/footer.png)
+
+* Gallery
+  - Contains images and videos from previous adventures and gives the user an idea of what to expect during the journey. It serves as a compliment to the landing page and is a vital part of the user's first impression.
+  - All videos are off by default and give the user full control in order to avoid minor annoyances such as sound playing without the users consent.
+
+![The gallery full of pictures from previous adventures](assets/images/gallery.png)
+
+![The video section of the gallery](assets/images/gallery-videos.png)
+
+* The Sign Up Page
+  - 
