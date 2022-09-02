@@ -55,3 +55,72 @@ Visitors to the site can sign up and join the Light Seekers club, which already 
 ![The sign up form](assets/images/signup.png)
 
 ## Testing
+
+* I have tested that the site works in the following browsers: Firefox, Google Chrome and Microsoft Edge.
+
+* I can confirm that the site is responsive, i.e. looks good and functions, on all common screen sizes.
+
+* I can confirm that all elements of the site (information, navigation, the form etc.) are easy to read and understand.
+
+* I have tested the videos to ensure that they are both playable and that they give the user full control over how and when they are played.
+
+* I have tested the form and can confirm that it works as intended: all required fields require input, the email field will only accept email addresses, the submit button works and the correct relevant information is sent to the server.
+
+* I can confirm that all links, both internal and external, work as intended and that all external links open up in a new tab.
+
+<br>
+
+### Bugs
+
+* No major or unusual bugs were encountered during development.
+
+<br>
+
+### Validator Testing
+
+* HTML
+  - No errors were returned when passed through the official [W3C HTML validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdrakain.github.io%2Flight-seekers%2Findex.html).
+
+* CSS
+  - No errors were returned when passed through the official [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdrakain.github.io%2Flight-seekers%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
+* Lighthouse
+  - I confirmed that the site is accessible and has good a performance score through Lighthouse in devtools.
+
+      ![The Lighthouse scores on Performance, Acessibility, Best Practices and SEO](assets/images/lighthouse.png)
+
+  <br>
+
+  ### Unfixed Bugs
+
+  * There are no unfixed bugs.
+
+  <br>
+
+  ## Deployment
+
+  * The site was deployed to GitHub pages. The deployment steps are as follows:
+    1. Enter the GitHub repository.
+    2. Navigate to the "Settings" tab.
+    3. Find the "Pages" tab in the menu to the left and click it.
+    4. Find the "Select branch" drop-down menu under the "Branch" heading.
+    5. Select "main" as your branch and save.
+    6. Refresh the page after a short while in order to be provided with a link to the now deployed site.
+
+  <br>
+
+  * The live link can be found [here](https://drakain.github.io/light-seekers/index.html).
+
+  <br>
+
+  ## Credits
+
+  ### Content
+
+  * The social media icons were taken from [Font Awesome](https://fontawesome.com/).
+
+  <br>
+
+  ### Media
+
+  * All pictures and videos were taken from [Pexels](https://www.pexels.com/).
