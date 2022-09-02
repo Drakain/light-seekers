@@ -50,4 +50,8 @@ Visitors to the site can sign up and join the Light Seekers club, which already 
 ![The video section of the gallery](assets/images/gallery-videos.png)
 
 * The Sign Up Page
-  - 
+  - This part of the site allows the user to sign up for membership in the club. The user will be asked to input some basic personal information so that they can be contacted and be given more detailed information regarding upcoming adventures. The form also asks the user to input some basic preferences so that the organizers can start planning upcoming trips.
+
+![The sign up form](assets/images/signup.png)
+
+## Testing

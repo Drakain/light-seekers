@@ -554,6 +554,11 @@ footer {
         height: fit-content;
     }
 
+    #train, #car, #dog-sled, #snowmobile {
+        display: block;
+        margin: 5px 0;
+    }
+
     #fade1 {
         margin: 0 2px;
         right: 0;
@@ -589,11 +594,6 @@ footer {
 
     .gallery-heading {
         text-align: center;
-    }
-
-    #train, #car, #dog-sled, #snowmobile {
-        display: block;
-        margin: 5px 0;
     }
  }
 
