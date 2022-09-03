@@ -9,7 +9,7 @@ Visitors to the site can sign up and join the Light Seekers club, which already 
 ## Features
 
 * Navigation Bar
-  - Fully responsive and can be found on all three pages. Allows users to easily navigate the site and will prevent users from getting lost when navigating the site. Includes links to the Home page, the Gallery, the Sign up page as well as the Logo.
+  - Fully responsive and can be found on all three pages. Allows users to easily navigate the site and will prevent users from getting lost. Includes links to the Home page, the Gallery, the Sign Up page as well as a clickable Logo that always brings the user to the landing page.
   - The bar remains identical on all three pages in order to make navigation as easy as possible. It also removes the need to use the browsers built-in "back" and "forward" buttons while using the site.
 
 ![The navigation bar](assets/images/navigation.png)
